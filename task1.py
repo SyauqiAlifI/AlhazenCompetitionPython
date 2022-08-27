@@ -1,4 +1,3 @@
-from operator import truediv
 import turtle
 
 # Make a turtle project with formulas, variable and function
