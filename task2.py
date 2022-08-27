@@ -5,3 +5,4 @@ def welcome():
     in_num = input("Input your phone nunmber: ")
     print(in_name, in_age, in_place, in_num)
     print("Thank u for register to this page")
+welcome()
