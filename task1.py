@@ -1,6 +1,8 @@
 import turtle
 
 # Make a turtle project with formulas, variable and function
+
+# Variables for angles
 half_serogka = 22.5
 serong_kanan = 45.0
 go_right = 90.0
