@@ -28,9 +28,9 @@ def draw_hexagon(my_turtle):
     my_size = float(input("Input amount of forward : "))
     i = 1
     while i <= 8:
-        my_turtle.forward(float(my_size))
+        my_turtle.forward(my_size)
         my_turtle.right(serong_kanan)
-        my_turtle.forward(float(my_size))
+        my_turtle.forward(my_size)
         i += 1
     isDone = input("Done? (Boolean) : ")
     if isDone == "True" or isDone == "true":
