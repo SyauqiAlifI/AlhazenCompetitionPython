@@ -24,6 +24,8 @@ def welcome():
         draw_pentagon(my_turtle)
     elif inp == "3":
         draw_rectangle(my_turtle)
+    else:
+        print("Bye then!")
 
 # Hexagone (6)
 def draw_hexagon(my_turtle):
