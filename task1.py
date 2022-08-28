@@ -36,7 +36,8 @@ def draw_hexagon(my_turtle):
     if isDone == "True" or isDone == "true":
         print("Bye!")
     else:
-        draw_hexagon()
+        turtl = turtle.Turtle()
+        draw_hexagon(turtl)
 
 # Pentagon (5)
 def draw_pentagon(my_turtle):
@@ -62,7 +63,8 @@ def draw_pentagon(my_turtle):
     if isDone == "True" or isDone == "true":
         print("Bye!")
     else:
-        draw_pentagon()
+        turtl = turtle.Turtle()
+        draw_pentagon(turtl)
 
 # rectangle (4)
 def draw_rectangle(my_turtle):
@@ -76,6 +78,7 @@ def draw_rectangle(my_turtle):
     if isDone == "True" or isDone == "true":
         print("Bye!")
     else:
-        draw_pentagon()
+        turtl = turtle.Turtle()
+        draw_pentagon(turtl)
 
 welcome()
