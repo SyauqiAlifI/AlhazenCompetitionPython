@@ -12,8 +12,7 @@ def welcome():
     in_num = input("Input your phone nunmber: ")
     check_inp_int(in_num)
 
-    print(in_name, in_age, in_place, in_num)
-    print("Thank u for register to this page")
+    print("Hi {}, Age = {}, Live in {}, Phone Number : {}".format(in_name, in_age, in_place, in_num))
 
 def check_inp_str(input):
     try:
