@@ -79,6 +79,6 @@ def draw_rectangle(my_turtle):
         print("Bye!")
     else:
         turtl = turtle.Turtle()
-        draw_pentagon(turtl)
+        draw_rectangle(turtl)
 
 welcome()
